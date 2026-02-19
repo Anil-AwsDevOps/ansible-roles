@@ -7,3 +7,7 @@ hostnames:
   - name: 'private-ip-address'
     separator: '_'
     prefix: 'tag:Name'
+filters:
+  # This selects only running instances with tag `Name` tag set to `frontend-dev`.
+  tag:Name: frontend-dev
+  instance-state-name : running
