@@ -4,3 +4,6 @@ regions: # it lists all instance present in us-east-1 region
 hostnames:
   # This option allows displaying the public ip addresses.
   - ip-address
+  - name: 'private-ip-address'
+    separator: '_'
+    prefix: 'tag:Name'
