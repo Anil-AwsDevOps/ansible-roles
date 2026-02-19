@@ -1,0 +1,3 @@
+plugin: amazon.aws.aws_ec2 #plugin to aws ec2 instance
+regions: # it lists all instance present in us-east-1 region
+- us-east-1
